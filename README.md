@@ -16,7 +16,22 @@ Example of usage is:
 ```
 latexgen finalReport
 ```
-Produces the file "finalReport.tex"
+Produces the file "finalReport.tex", with the preamble:
+```
+\documentclass{article}
+
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{bbm}
+
+\graphicspath{{./images}}
+
+\begin{document}
+
+\end{document}
+```
 
 ## Making File
 

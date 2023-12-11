@@ -20,6 +20,11 @@ Produces the file "finalReport.tex"
 
 ## Making File
 
+Clone the repo:
+```
+git clone https://github.com/tomm-g/latexgen.git
+```
+
 To make latexgen executable, use following terminal command, within repo:
 ```
 make latexgen

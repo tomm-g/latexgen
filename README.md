@@ -18,6 +18,13 @@ latexgen finalReport
 ```
 Produces the file "finalReport.tex"
 
+## Making File
+
+To make latexgen executable, use following terminal command, within repo:
+```
+make latexgen
+```
+
 ## Adding to PATH
 
 In .bashrc or .zshrc file, add following line:

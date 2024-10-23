@@ -30,11 +30,9 @@ int main(int argc, char **argv){
 	strcat(fileName, fileExt);
 	//printf("%s\n", fileName);
 
-	//char texData[200] =
-//"\\documentclass{article}\n\n\\usepackage{graphicx}\n\\usepackage{float}\n\\usepackage{amsmath}\n\\usepackage{amssymb}\n\\usepackage{bbm}\n\n\\graphicspath{{./images}}\n\n\\begin{document}\n\n\\end{document}\n";
-	
 	char texData[500] =
 "\\documentclass{article}\n\n\\usepackage{graphicx}\n\\usepackage{float}\n\\usepackage{amsmath}\n\\usepackage{amssymb}\n\\usepackage{bbm}\n\n\n\n\\usepackage{biblatex}\n\\addbibresource{}\n\n\\graphicspath{{./images}}\n\n\\begin{document}\n\n\\printbibliography\n\n\\end{document}\n";
+	
 
 	//FILE *fptr;
 
@@ -45,7 +43,7 @@ int main(int argc, char **argv){
 
 	fprintf(fptr, "%s",texData);
 	//printf("test data written to %s file\n", fileName);
-
+	
 	mkdir("images", S_IRWXU);
 
 	fclose(fptr);

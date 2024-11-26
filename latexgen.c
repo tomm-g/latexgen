@@ -34,7 +34,25 @@ int main(int argc, char **argv){
 //"\\documentclass{article}\n\n\\usepackage{graphicx}\n\\usepackage{float}\n\\usepackage{amsmath}\n\\usepackage{amssymb}\n\\usepackage{bbm}\n\n\\graphicspath{{./images}}\n\n\\begin{document}\n\n\\end{document}\n";
 	
 	char texData[500] =
-"\\documentclass{article}\n\n\\usepackage{graphicx}\n\\usepackage{float}\n\\usepackage{amsmath}\n\\usepackage{amssymb}\n\\usepackage{bbm}\n\n\n\n\\usepackage{biblatex}\n\\addbibresource{}\n\n\\graphicspath{{./images}}\n\n\\begin{document}\n\n\\printbibliography\n\n\\end{document}\n";
+"\\documentclass{article}\n\n\\usepackage{graphicx}\n\\usepackage{float}\n\\usepackage{amsmath}\n\\usepackage{amssymb}\n\\usepackage{bbm}\n\\usepackage{parskip}\n\n\n\\usepackage[style=numeric, backend=bibtex8, dateabbrev=false]{biblatex}\n\\addbibresource{}\n\n\\graphicspath{{./images}}\n\n\\begin{document}\n\n\\printbibliography\n\n\\end{document}\n";
+
+//	\documentclass{article}
+//
+//\usepackage{graphicx}
+//\usepackage{float}
+//\usepackage{amsmath}
+//\usepackage{amssymb}
+//\usepackage{bbm}
+//\usepackage{subfiles}
+//\usepackage{parskip}
+//
+//\usepackage{geometry}
+//
+//
+//
+//%\usepackage[style=authoryear-ibid, backend=bibtex8]{biblatex}
+//\usepackage[style=numeric, backend=bibtex8, dateabbrev=false]{biblatex}
+
 
 	//FILE *fptr;
 

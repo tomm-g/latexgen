@@ -25,11 +25,21 @@ Produces the file "finalReport.tex", with the preamble:
 \usepackage{amsmath}
 \usepackage{amssymb}
 \usepackage{bbm}
+\usepackage{subfiles}
+\usepackage{parskip}
+
+\usepackage{geometry}
+
+
+
+\usepackage[style=numeric, backend=bibtex8, dateabbrev=false]{biblatex}
+\addbibresource{}
 
 \graphicspath{{./images}}
 
 \begin{document}
 
+\printbibliography
 \end{document}
 ```
 
